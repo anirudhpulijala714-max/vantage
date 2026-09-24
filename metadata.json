@@ -1,0 +1,6 @@
+{
+  "name": "Vantage Personal Loans",
+  "description": "Premium personal loan digital platform with real-time EMI calculation, instant eligibility assessment, and streamlined digital application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

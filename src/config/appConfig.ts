@@ -1,0 +1,21 @@
+export const appConfig = {
+  brandName: 'Vantage Personal Loans',
+  brandShort: 'Vantage',
+  name: 'Vantage',
+  legalEntityName: 'Vantage Personal Loans Pvt. Ltd.',
+  brandTagline: 'Personal Loans Made Simple',
+  supportEmail: 'support@example.com',
+  supportPhone: '+91 XXXXX XXXXX',
+  address: 'Level 4, Prestige Tech Park, Marathahalli-Sarjapur Outer Ring Road, Bengaluru, Karnataka 560103',
+  registeredAddress: 'Level 4, Prestige Tech Park, Marathahalli-Sarjapur Outer Ring Road, Bengaluru, Karnataka 560103',
+  hours: 'Mon – Sat: 9:30 AM – 6:30 PM IST',
+  // Configurable WhatsApp support number (uses env variable or placeholder if not provided)
+  whatsAppNumber: import.meta.env.VITE_WHATSAPP_NUMBER || '+919876543210',
+  whatsAppMessage: encodeURIComponent('Hello Vantage team, I would like to inquire about personal loan options.'),
+  indicativeMinRate: 10.5,
+  indicativeMaxRate: 24.0,
+  minLoanAmount: 50000,
+  maxLoanAmount: 2500000,
+  defaultLoanAmount: 500000,
+  defaultTenureYears: 3,
+};
